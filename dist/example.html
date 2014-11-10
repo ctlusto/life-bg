@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- d3 will throw an error if you don't set character encoding -->
+        <meta charset="utf-8"> 
+        
+        <!-- Based on http://bl.ocks.org/sylvaingi/2369589 -->
+
+        <style type="text/css">
+            html,body{
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="life-bg.js"></script>
+        <script>
+            var life = new Life();
+            life.init();
+        </script>
+    </body>
+</html>

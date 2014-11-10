@@ -1,0 +1,26 @@
+{
+  "name": "life-bg.js",
+  "version": "1.0.0",
+  "description": "Run Conway's Game of Life in the browser.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctlusto/life-bg.git"
+  },
+  "keywords": [
+    "conway",
+    "life"
+  ],
+  "author": "Chris Lusto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctlusto/life-bg/issues"
+  },
+  "homepage": "https://github.com/ctlusto/life-bg",
+  "dependencies": {
+    "d3": "^3.4.13"
+  }
+}
